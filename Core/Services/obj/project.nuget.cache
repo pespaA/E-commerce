@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "EUJv9mgcoAI=",
+  "success": true,
+  "projectFilePath": "D:\\خاص\\عمر\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Core\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omaro\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\omaro\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\omaro\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\omaro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\omaro\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\omaro\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

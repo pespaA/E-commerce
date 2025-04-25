@@ -1,0 +1,15 @@
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\bin\Debug\net8.0\Services.Abstractions.deps.json
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\bin\Debug\net8.0\Services.Abstractions.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\bin\Debug\net8.0\Services.Abstractions.pdb
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\bin\Debug\net8.0\Shared.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\bin\Debug\net8.0\Shared.pdb
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.Abstractions.csproj.AssemblyReference.cache
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.Abstractions.AssemblyInfoInputs.cache
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.Abstractions.AssemblyInfo.cs
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.Abstractions.csproj.CoreCompileInputs.cache
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.E74F1EB6.Up2Date
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.Abstractions.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\refint\Services.Abstractions.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\Services.Abstractions.pdb
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Core\Services.Abstractions\obj\Debug\net8.0\ref\Services.Abstractions.dll
