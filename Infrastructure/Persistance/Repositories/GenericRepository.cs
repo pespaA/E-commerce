@@ -37,9 +37,22 @@ namespace Persistance.Repositories
 
             => await ApplySpecifications(specifications).FirstOrDefaultAsync();
 
-        private IQueryable<TEntity> ApplySpecifications(Specifications<TEntity> specifications)
-          
-            => SpecificationEvaluator.GetQuery<TEntity>(_storeContext.Set<TEntity>(), specifications);
+        private IQueryable<TEntity> ApplySpecifications(Specifications<TEntity> spec)
+        {
+            var query = _storeContext.Set<TEntity>().AsQueryable();
+
+            if (spec.Criteria is not null)
+                query = query.Where(spec.Criteria);
+
+            if (spec.OrderBy is not null)
+                query = query.OrderBy(spec.OrderBy);
+            else if (spec.OrderByDescending is not null)
+                query = query.OrderByDescending(spec.OrderByDescending);
+
+            query = spec.IncludeExpression.Aggregate(query, (current, include) => current.Include(include));
+
+            return query;
+        }
         #endregion
 
         public async Task<TEntity?> GetByIdAsync(TKey Id)
