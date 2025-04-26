@@ -15,3 +15,4 @@ D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-c
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Infrastructure\Persentation\obj\Debug\net8.0\refint\Persentation.dll
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Infrastructure\Persentation\obj\Debug\net8.0\Persentation.pdb
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Infrastructure\Persentation\obj\Debug\net8.0\ref\Persentation.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\Infrastructure\Persentation\obj\Debug\net8.0\Persentation.sourcelink.json

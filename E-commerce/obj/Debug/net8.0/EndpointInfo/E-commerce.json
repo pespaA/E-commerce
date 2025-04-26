@@ -10,6 +10,31 @@
         "tags": [
           "Product"
         ],
+        "parameters": [
+          {
+            "name": "TypeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "BrandId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Sort",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/ProductSortingOptions"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -257,6 +282,16 @@
           }
         },
         "additionalProperties": false
+      },
+      "ProductSortingOptions": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "TypeResultDto": {
         "type": "object",

@@ -15,9 +15,9 @@ namespace Persentation
     {
         #region GetAllProduct
         [HttpGet("Products")]
-        public async Task<ActionResult<IEnumerable<ProductResultDto>>>GetAllProducts()
+        public async Task<ActionResult<IEnumerable<ProductResultDto>>>GetAllProducts([FromQuery] ProductSpecificationsParameters parameters)
         {
-            var Products = await ServiceManager.ProductService.GetAllProductAsync();
+            var Products = await ServiceManager.ProductService.GetAllProductAsync(parameters);
             return Ok(Products);
         }
         #endregion

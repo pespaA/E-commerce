@@ -28,6 +28,20 @@ namespace Persistance.Repositories
         => TrackChanges ? await _storeContext.Set<TEntity>().ToListAsync()
             :await _storeContext.Set<TEntity>().AsNoTracking().ToListAsync();
 
+        #region For Specifications
+        public async Task<IEnumerable<TEntity>> GetAllWithSpecificationsAsync(Specifications<TEntity> specifications)
+
+            => await ApplySpecifications(specifications).ToListAsync();
+
+        public async Task<TEntity?> GetByIdWithSpecificationsAsync(Specifications<TEntity> specifications)
+
+            => await ApplySpecifications(specifications).FirstOrDefaultAsync();
+
+        private IQueryable<TEntity> ApplySpecifications(Specifications<TEntity> specifications)
+          
+            => SpecificationEvaluator.GetQuery<TEntity>(_storeContext.Set<TEntity>(), specifications);
+        #endregion
+
         public async Task<TEntity?> GetByIdAsync(TKey Id)
         => await _storeContext.Set<TEntity>().FindAsync(Id);
 
