@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53F66009-0E60-4982-9ED6-1219C8B058CF}|Infrastructure\\Persentation\\Persentation.csproj|d:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\iti course\\02 c#\\06 asp.net web apis\\session 01\\assignments\\e-commerce\\infrastructure\\persentation\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F66009-0E60-4982-9ED6-1219C8B058CF}|Infrastructure\\Persentation\\Persentation.csproj|solutionrelative:infrastructure\\persentation\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9C19D4D-6C28-4904-8E3C-3E633778274F}|Shared\\Shared.csproj|d:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\iti course\\02 c#\\06 asp.net web apis\\session 01\\assignments\\e-commerce\\shared\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C19D4D-6C28-4904-8E3C-3E633778274F}|Shared\\Shared.csproj|solutionrelative:shared\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D8CD6B2-CB38-40C1-9402-1940696A6501}|E-commerce\\E-commerce.csproj|d:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\iti course\\02 c#\\06 asp.net web apis\\session 01\\assignments\\e-commerce\\e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D8CD6B2-CB38-40C1-9402-1940696A6501}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF1EDA34-49F2-4145-8897-00F844AF621F}|Core\\Services.Abstractions\\Services.Abstractions.csproj|d:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\iti course\\02 c#\\06 asp.net web apis\\session 01\\assignments\\e-commerce\\core\\services.abstractions\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1EDA34-49F2-4145-8897-00F844AF621F}|Core\\Services.Abstractions\\Services.Abstractions.csproj|solutionrelative:core\\services.abstractions\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F66009-0E60-4982-9ED6-1219C8B058CF}|Infrastructure\\Persentation\\Persentation.csproj|d:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\iti course\\02 c#\\06 asp.net web apis\\session 01\\assignments\\e-commerce\\infrastructure\\persentation\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F66009-0E60-4982-9ED6-1219C8B058CF}|Infrastructure\\Persentation\\Persentation.csproj|solutionrelative:infrastructure\\persentation\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,35 +25,47 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\E-commerce\\Program.cs",
-              "RelativeDocumentMoniker": "E-commerce\\Program.cs",
-              "ToolTip": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\E-commerce\\Program.cs",
-              "RelativeToolTip": "E-commerce\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAArwCQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T18:42:56.68Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Infrastructure\\Persentation\\ProductController.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persentation\\ProductController.cs",
-              "ToolTip": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Infrastructure\\Persentation\\ProductController.cs*",
-              "RelativeToolTip": "Infrastructure\\Persentation\\ProductController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAC4AAAAZAAAAAAAAAA==",
+              "Title": "BasketItemDto.cs",
+              "DocumentMoniker": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Shared\\BasketItemDto.cs",
+              "RelativeDocumentMoniker": "Shared\\BasketItemDto.cs",
+              "ToolTip": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Shared\\BasketItemDto.cs",
+              "RelativeToolTip": "Shared\\BasketItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T19:16:23.573Z",
+              "WhenOpened": "2025-04-28T21:58:10.34Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBasketService.cs",
+              "DocumentMoniker": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Core\\Services.Abstractions\\IBasketService.cs",
+              "RelativeDocumentMoniker": "Core\\Services.Abstractions\\IBasketService.cs",
+              "ToolTip": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Core\\Services.Abstractions\\IBasketService.cs",
+              "RelativeToolTip": "Core\\Services.Abstractions\\IBasketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T21:44:26.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Infrastructure\\Persentation\\BasketController.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persentation\\BasketController.cs",
+              "ToolTip": "D:\\\u062E\u0627\u0635\\\u0639\u0645\u0631\\ITI Course\\02 C#\\06 Asp.Net Web Apis\\Session 01\\Assignments\\E-commerce\\Infrastructure\\Persentation\\BasketController.cs",
+              "RelativeToolTip": "Infrastructure\\Persentation\\BasketController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T21:38:54.026Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -161,3 +161,5 @@ D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-c
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\AutoMapper.dll
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\E-commerce.staticwebassets.runtime.json
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\obj\Debug\net8.0\E-commerce.sourcelink.json
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\StackExchange.Redis.dll
