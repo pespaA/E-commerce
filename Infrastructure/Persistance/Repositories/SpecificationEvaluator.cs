@@ -26,7 +26,8 @@ namespace Persistance.Repositories
             //}
             query = specifications.IncludeExpression.Aggregate
                 (query,(currentquery,includeexpression)=> currentquery.Include(includeexpression));
-            if(specifications.OrderBy is not null)
+            #region For Sorting
+            if (specifications.OrderBy is not null)
             {
                 query = query.OrderBy(specifications.OrderBy);
             }
@@ -34,6 +35,11 @@ namespace Persistance.Repositories
             {
                 query = query.OrderBy(specifications.OrderByDescending);
             }
+            if(specifications.IsPaginated)
+            {
+                query = query.Skip(specifications.Skip).Take(specifications.Take);
+            }
+            #endregion
             return query;
         }
     }

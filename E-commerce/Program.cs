@@ -1,5 +1,9 @@
 
 using Domain.Contracts;
+using E_commerce.Extensions;
+using E_commerce.Factories;
+using E_commerce.Middlewares;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistance;
 using Persistance.Data;
@@ -16,27 +20,21 @@ namespace E_commerce
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
-            builder.Services.AddControllers().AddApplicationPart(typeof(Persentation.AssemblyReference).Assembly);
+            
             #region Configure Services
-            builder.Services.AddScoped<IDbInitializer, DbInitializer>();
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            builder.Services.AddScoped<IServiceManager, ServiceManager>();
-            builder.Services.AddAutoMapper(typeof(Services.AssemblyRefernce).Assembly);
-            builder.Services.AddDbContext<StoreContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-            });
+            builder.Services.AddInfraStructureServics(builder.Configuration);
+            builder.Services.AddCoreServices();
+            builder.Services.AddPersentationsServices();
             #endregion
-
-
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            #region Build
             var app = builder.Build();
-            await InitializeDbAsync(app);
-
+            #endregion
+            #region MiddleWares
+            app.UseCustomMiddlewareExceptions();
+            await app.SeedDbAsync();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -53,13 +51,10 @@ namespace E_commerce
 
             app.Run();
 
-            async Task InitializeDbAsync(WebApplication app)
-            {
-                //Create Object From Type That Implements IDbintializer
-                using var Scope = app.Services.CreateScope();
-                var dbinitailizer = Scope.ServiceProvider.GetRequiredService<IDbInitializer>();
-                await dbinitailizer.InitializeAsync();
-            }
+            
+            #endregion
+
+
         }
     }
 }

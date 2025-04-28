@@ -25,10 +25,12 @@ namespace Services.Specifications
         public ProductWithBrandAndTypeSpecifications(ProductSpecificationsParameters parameters)
             :base(product=>
             (!parameters.BrandId.HasValue||product.BrandId== parameters.BrandId)&&
-            (!parameters.TypeId.HasValue||product.TypeId== parameters.TypeId))
+            (!parameters.TypeId.HasValue||product.TypeId== parameters.TypeId) &&
+            (string.IsNullOrWhiteSpace(parameters.Search)||product.Name.ToLower().Contains(parameters.Search.ToLower().Trim())))
         {
             AddInclude(product => product.ProductBrand);
             AddInclude(product => product.ProductType);
+            ApplyPagination(parameters.PageIndex, parameters.PageSize);       
             #region Sort
             switch (parameters.Sort)
             {
