@@ -23,7 +23,7 @@ namespace E_commerce
             
             #region Configure Services
             builder.Services.AddInfraStructureServics(builder.Configuration);
-            builder.Services.AddCoreServices();
+            builder.Services.AddCoreServices(builder.Configuration);
             builder.Services.AddPersentationsServices();
             #endregion
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -43,7 +43,7 @@ namespace E_commerce
             }
             app.UseStaticFiles();
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

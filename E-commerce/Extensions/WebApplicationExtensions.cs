@@ -13,6 +13,7 @@ namespace E_commerce.Extensions
             using var Scope = app.Services.CreateScope();
             var dbinitailizer = Scope.ServiceProvider.GetRequiredService<IDbInitializer>();
             await dbinitailizer.InitializeAsync();
+            await dbinitailizer.InitializeIdentityAsync();
             return app;
         }
         public static WebApplication UseCustomMiddlewareExceptions(this WebApplication app)

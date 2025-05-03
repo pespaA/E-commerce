@@ -11,9 +11,8 @@ using Shared.ErrorModels;
 
 namespace Persentation
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductController(IServiceManager ServiceManager):ControllerBase
+
+    public class ProductController(IServiceManager ServiceManager):ApiController
     {
         #region GetAllProduct
         [HttpGet("Products")]
@@ -40,10 +39,7 @@ namespace Persentation
         }
         #endregion
         #region GetProductById
-        [ProducesResponseType(typeof(ErrorDetails),(int)HttpStatusCode.NotFound)]
-        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.InternalServerError)]
-        [ProducesResponseType(typeof(ValidationErrorsResponse), (int)HttpStatusCode.BadRequest)]
-        [ProducesResponseType(typeof(ProductResultDto), (int)HttpStatusCode.OK)]
+        
         [HttpGet("{id}")]
         public async Task<ActionResult<IEnumerable<ProductResultDto>>> GetProductById(int id)
         {

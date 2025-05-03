@@ -163,3 +163,9 @@ D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-c
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\obj\Debug\net8.0\E-commerce.sourcelink.json
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\خاص\عمر\ITI Course\02 C#\06 Asp.Net Web Apis\Session 01\Assignments\E-commerce\E-commerce\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
